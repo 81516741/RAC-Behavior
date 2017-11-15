@@ -15,14 +15,14 @@
 		0D2AEF531FBC418800CC7CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF521FBC418800CC7CA2 /* main.m */; };
 		0D2AEF6C1FBC49BE00CC7CA2 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF6A1FBC49BE00CC7CA2 /* MyVC.m */; };
 		0D2AEF6D1FBC49BE00CC7CA2 /* MyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2AEF6B1FBC49BE00CC7CA2 /* MyVC.xib */; };
-		0D2AEF6E1FBC4E5600CC7CA2 /* Behavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF5A1FBC468100CC7CA2 /* Behavior.h */; };
-		0D2AEF6F1FBC4E5600CC7CA2 /* Behavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF5B1FBC468100CC7CA2 /* Behavior.m */; };
-		0D2AEF701FBC4E5600CC7CA2 /* ButtonBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF5C1FBC468100CC7CA2 /* ButtonBehavior.h */; };
-		0D2AEF711FBC4E5600CC7CA2 /* ButtonBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF5D1FBC468100CC7CA2 /* ButtonBehavior.m */; };
-		0D2AEF721FBC4E5600CC7CA2 /* ImageViewBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF601FBC468100CC7CA2 /* ImageViewBehavior.h */; };
-		0D2AEF731FBC4E5600CC7CA2 /* ImageViewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF611FBC468100CC7CA2 /* ImageViewBehavior.m */; };
-		0D2AEF741FBC4E5600CC7CA2 /* TextFieldBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF621FBC468100CC7CA2 /* TextFieldBehavior.h */; };
-		0D2AEF751FBC4E5600CC7CA2 /* TextFieldBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AEF631FBC468100CC7CA2 /* TextFieldBehavior.m */; };
+		0D71BC871FBC757E00108E4A /* Behavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC7F1FBC73D900108E4A /* Behavior.h */; };
+		0D71BC881FBC757E00108E4A /* Behavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC801FBC73D900108E4A /* Behavior.m */; };
+		0D71BC891FBC757E00108E4A /* ButtonBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC811FBC73D900108E4A /* ButtonBehavior.h */; };
+		0D71BC8A1FBC757E00108E4A /* ButtonBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC821FBC73D900108E4A /* ButtonBehavior.m */; };
+		0D71BC8B1FBC757E00108E4A /* ImageViewBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC831FBC73D900108E4A /* ImageViewBehavior.h */; };
+		0D71BC8C1FBC757E00108E4A /* ImageViewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC841FBC73D900108E4A /* ImageViewBehavior.m */; };
+		0D71BC8D1FBC757E00108E4A /* TextFieldBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC851FBC73D900108E4A /* TextFieldBehavior.h */; };
+		0D71BC8E1FBC757E00108E4A /* TextFieldBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71BC861FBC73D900108E4A /* TextFieldBehavior.m */; };
 		DF10C512F1B0CC18085DEC36 /* libPods-RAC&Behavior.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 705AB2AED41F0822708A25AA /* libPods-RAC&Behavior.a */; };
 /* End PBXBuildFile section */
 
@@ -38,18 +38,18 @@
 		0D2AEF4F1FBC418800CC7CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2AEF511FBC418800CC7CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D2AEF521FBC418800CC7CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D2AEF5A1FBC468100CC7CA2 /* Behavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Behavior.h; sourceTree = "<group>"; };
-		0D2AEF5B1FBC468100CC7CA2 /* Behavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Behavior.m; sourceTree = "<group>"; };
-		0D2AEF5C1FBC468100CC7CA2 /* ButtonBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonBehavior.h; sourceTree = "<group>"; };
-		0D2AEF5D1FBC468100CC7CA2 /* ButtonBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonBehavior.m; sourceTree = "<group>"; };
-		0D2AEF601FBC468100CC7CA2 /* ImageViewBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewBehavior.h; sourceTree = "<group>"; };
-		0D2AEF611FBC468100CC7CA2 /* ImageViewBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewBehavior.m; sourceTree = "<group>"; };
-		0D2AEF621FBC468100CC7CA2 /* TextFieldBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldBehavior.h; sourceTree = "<group>"; };
-		0D2AEF631FBC468100CC7CA2 /* TextFieldBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldBehavior.m; sourceTree = "<group>"; };
 		0D2AEF641FBC469000CC7CA2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D2AEF691FBC49BE00CC7CA2 /* MyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
 		0D2AEF6A1FBC49BE00CC7CA2 /* MyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
 		0D2AEF6B1FBC49BE00CC7CA2 /* MyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyVC.xib; sourceTree = "<group>"; };
+		0D71BC7F1FBC73D900108E4A /* Behavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Behavior.h; sourceTree = "<group>"; };
+		0D71BC801FBC73D900108E4A /* Behavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Behavior.m; sourceTree = "<group>"; };
+		0D71BC811FBC73D900108E4A /* ButtonBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonBehavior.h; sourceTree = "<group>"; };
+		0D71BC821FBC73D900108E4A /* ButtonBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonBehavior.m; sourceTree = "<group>"; };
+		0D71BC831FBC73D900108E4A /* ImageViewBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewBehavior.h; sourceTree = "<group>"; };
+		0D71BC841FBC73D900108E4A /* ImageViewBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewBehavior.m; sourceTree = "<group>"; };
+		0D71BC851FBC73D900108E4A /* TextFieldBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldBehavior.h; sourceTree = "<group>"; };
+		0D71BC861FBC73D900108E4A /* TextFieldBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldBehavior.m; sourceTree = "<group>"; };
 		1FF07034C84BA88D5ECD0EDB /* Pods-RAC&Behavior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC&Behavior.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC&Behavior/Pods-RAC&Behavior.release.xcconfig"; sourceTree = "<group>"; };
 		705AB2AED41F0822708A25AA /* libPods-RAC&Behavior.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC&Behavior.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 		0D2AEF421FBC418800CC7CA2 /* RAC&Behavior */ = {
 			isa = PBXGroup;
 			children = (
-				0D2AEF591FBC468100CC7CA2 /* Behavior */,
+				0D71BC7E1FBC73D900108E4A /* Behavior */,
 				0D2AEF431FBC418800CC7CA2 /* AppDelegate.h */,
 				0D2AEF691FBC49BE00CC7CA2 /* MyVC.h */,
 				0D2AEF6A1FBC49BE00CC7CA2 /* MyVC.m */,
@@ -105,20 +105,19 @@
 			path = "RAC&Behavior";
 			sourceTree = "<group>";
 		};
-		0D2AEF591FBC468100CC7CA2 /* Behavior */ = {
+		0D71BC7E1FBC73D900108E4A /* Behavior */ = {
 			isa = PBXGroup;
 			children = (
-				0D2AEF5A1FBC468100CC7CA2 /* Behavior.h */,
-				0D2AEF5B1FBC468100CC7CA2 /* Behavior.m */,
-				0D2AEF5C1FBC468100CC7CA2 /* ButtonBehavior.h */,
-				0D2AEF5D1FBC468100CC7CA2 /* ButtonBehavior.m */,
-				0D2AEF601FBC468100CC7CA2 /* ImageViewBehavior.h */,
-				0D2AEF611FBC468100CC7CA2 /* ImageViewBehavior.m */,
-				0D2AEF621FBC468100CC7CA2 /* TextFieldBehavior.h */,
-				0D2AEF631FBC468100CC7CA2 /* TextFieldBehavior.m */,
+				0D71BC7F1FBC73D900108E4A /* Behavior.h */,
+				0D71BC801FBC73D900108E4A /* Behavior.m */,
+				0D71BC811FBC73D900108E4A /* ButtonBehavior.h */,
+				0D71BC821FBC73D900108E4A /* ButtonBehavior.m */,
+				0D71BC831FBC73D900108E4A /* ImageViewBehavior.h */,
+				0D71BC841FBC73D900108E4A /* ImageViewBehavior.m */,
+				0D71BC851FBC73D900108E4A /* TextFieldBehavior.h */,
+				0D71BC861FBC73D900108E4A /* TextFieldBehavior.m */,
 			);
-			name = Behavior;
-			path = ../../../../iMTC/btc/Classes/Common/Behavior;
+			path = Behavior;
 			sourceTree = "<group>";
 		};
 		24BD6FFC3FFCC9800C632256 /* Pods */ = {
@@ -267,14 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2AEF6E1FBC4E5600CC7CA2 /* Behavior.h in Sources */,
-				0D2AEF6F1FBC4E5600CC7CA2 /* Behavior.m in Sources */,
-				0D2AEF701FBC4E5600CC7CA2 /* ButtonBehavior.h in Sources */,
-				0D2AEF711FBC4E5600CC7CA2 /* ButtonBehavior.m in Sources */,
-				0D2AEF721FBC4E5600CC7CA2 /* ImageViewBehavior.h in Sources */,
-				0D2AEF731FBC4E5600CC7CA2 /* ImageViewBehavior.m in Sources */,
-				0D2AEF741FBC4E5600CC7CA2 /* TextFieldBehavior.h in Sources */,
-				0D2AEF751FBC4E5600CC7CA2 /* TextFieldBehavior.m in Sources */,
+				0D71BC871FBC757E00108E4A /* Behavior.h in Sources */,
+				0D71BC881FBC757E00108E4A /* Behavior.m in Sources */,
+				0D71BC891FBC757E00108E4A /* ButtonBehavior.h in Sources */,
+				0D71BC8A1FBC757E00108E4A /* ButtonBehavior.m in Sources */,
+				0D71BC8B1FBC757E00108E4A /* ImageViewBehavior.h in Sources */,
+				0D71BC8C1FBC757E00108E4A /* ImageViewBehavior.m in Sources */,
+				0D71BC8D1FBC757E00108E4A /* TextFieldBehavior.h in Sources */,
+				0D71BC8E1FBC757E00108E4A /* TextFieldBehavior.m in Sources */,
 				0D2AEF6C1FBC49BE00CC7CA2 /* MyVC.m in Sources */,
 				0D2AEF481FBC418800CC7CA2 /* ViewController.m in Sources */,
 				0D2AEF531FBC418800CC7CA2 /* main.m in Sources */,
