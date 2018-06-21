@@ -6,9 +6,9 @@
 //  Copyright © 2017年 btc. All rights reserved.
 //
 
-#import "ImageViewBehavior.h"
+#import "LDImageViewBehavior.h"
 
-@implementation ImageViewBehavior
+@implementation LDImageViewBehavior
 
 - (BOOL)check
 {

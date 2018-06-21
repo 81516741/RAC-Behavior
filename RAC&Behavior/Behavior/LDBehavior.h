@@ -1,5 +1,5 @@
 //
-//  Behavior.h
+//  LDBehavior.h
 //  btc
 //
 //  Created by lingda on 2017/9/1.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ReactiveObjC.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 
-@interface Behavior : UIControl
+@interface LDBehavior : UIControl
 
 @property(nonatomic, weak) IBOutlet id owner;
 -(BOOL)check;

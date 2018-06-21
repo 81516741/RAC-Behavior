@@ -1,15 +1,15 @@
 //
-//  Behavior.m
+//  LDBehavior.m
 //  btc
 //
 //  Created by lingda on 2017/9/1.
 //  Copyright © 2017年 btc. All rights reserved.
 //
 
-#import "Behavior.h"
+#import "LDBehavior.h"
 #import <objc/runtime.h>
 
-@implementation Behavior
+@implementation LDBehavior
 - (void)setOwner:(id)owner
 {
     if (_owner != owner) {

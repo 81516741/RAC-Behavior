@@ -6,8 +6,12 @@
 //  Copyright © 2017年 btc. All rights reserved.
 //
 
-#import "Behavior.h"
+#import "LDBehavior.h"
 
-@interface ImageViewBehavior : Behavior
+@interface LDImageViewBehavior : LDBehavior
+
+/**
+ 关联的UIImageView
+ */
 @property (weak ,nonatomic)IBOutlet UIImageView * imageView;
 @end

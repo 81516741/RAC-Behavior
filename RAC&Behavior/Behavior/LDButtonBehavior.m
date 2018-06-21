@@ -1,23 +1,23 @@
 //
-//  ButtonBehavior.m
+//  LDButtonBehavior.m
 //  btc
 //
 //  Created by lingda on 2017/9/1.
 //  Copyright © 2017年 btc. All rights reserved.
 //
 
-#import "ButtonBehavior.h"
-#import "TextFieldBehavior.h"
-#import "ImageViewBehavior.h"
+#import "LDButtonBehavior.h"
+#import "LDTextFieldBehavior.h"
+#import "LDImageViewBehavior.h"
 
-@implementation ButtonBehavior
+@implementation LDButtonBehavior
 
 -(void)awakeFromNib
 {
     [super awakeFromNib];
     [self.behaviors enumerateObjectsUsingBlock:^(id _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if ([obj isMemberOfClass:[TextFieldBehavior class]]) {
-            TextFieldBehavior * behavior = (TextFieldBehavior *)obj;
+        if ([obj isMemberOfClass:[LDTextFieldBehavior class]]) {
+            LDTextFieldBehavior * behavior = (LDTextFieldBehavior *)obj;
             [[behavior.textField rac_signalForControlEvents:UIControlEventEditingChanged] subscribeNext:^(__kindof UIControl * _Nullable x) {
                 [self check];
             }];
@@ -26,8 +26,8 @@
             }];
         }
         
-        if ([obj isMemberOfClass:[ImageViewBehavior class]]) {
-            ImageViewBehavior *  behavior = (ImageViewBehavior *)obj;
+        if ([obj isMemberOfClass:[LDImageViewBehavior class]]) {
+            LDImageViewBehavior *  behavior = (LDImageViewBehavior *)obj;
             [RACObserve(behavior.imageView, image) subscribeNext:^(id  _Nullable x) {
                 [self check];
             }];
@@ -40,7 +40,7 @@
 -(BOOL)check
 {
     BOOL __block buttonEnable = YES;
-    [self.behaviors enumerateObjectsUsingBlock:^(Behavior *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [self.behaviors enumerateObjectsUsingBlock:^(LDBehavior *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         buttonEnable = [obj check] && buttonEnable;
         if (!buttonEnable) {
             *stop = YES;

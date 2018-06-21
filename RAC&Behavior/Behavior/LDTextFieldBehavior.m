@@ -6,13 +6,13 @@
 //  Copyright © 2017年 btc. All rights reserved.
 //
 
-#import "TextFieldBehavior.h"
+#import "LDTextFieldBehavior.h"
 
-@interface TextFieldBehavior ()
+@interface LDTextFieldBehavior ()
 @property (nonatomic,strong) NSMutableArray * checkSel;
 @end
 
-@implementation TextFieldBehavior
+@implementation LDTextFieldBehavior
 
 -(void)setTextField:(UITextField *)textField
 {
